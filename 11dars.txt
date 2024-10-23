@@ -1,0 +1,10 @@
+class User:
+    def __init__(self, name, username, email, password):
+        self.name = name                # Foydalanuvchining to'liq ismi
+        self.username = username        # Foydalanuvchi ismi (nik)
+        self.email = email              # Foydalanuvchining elektron pochtasi
+        self.password = password        # Foydalanuvchining paroli
+
+# Misol uchun foydalanuvchi yaratish
+user1 = User(name="Ali Valiyev", username="ali_valiyev", email="ali@example.com", password="securepassword")
+print(user1)

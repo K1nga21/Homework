@@ -1,4 +1,4 @@
-ismlar = ['Otabek', 'Abdulaziz', 'Alisher', 'Asadbek', 'Kamron']
+ ismlar = ['Otabek', 'Abdulaziz', 'Alisher', 'Asadbek', 'Kamron']
 for af in ismlar:
     print(f"Do'stim {af}, seni 12-aprel kuni toyimga taklif qilaman")
     # TODO: write code...
